@@ -1,0 +1,91 @@
+﻿<!-- Author: Porter Thomas -->
+<!-- Description: IS 413 Mission 4 Assignment -->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intital-scale=1" />
+    
+    <!-- Website tab title & icon image -->
+    <title>Porter Thomas' Snapshot</title>
+    <link rel="icon" href="img/codingIcon.png" />
+
+    <!-- Connect to bootstrap libraries -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/Default.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <!-- Header bar -->
+    <div class="container-fluid bg-custom">
+        <h1>Porter Thomas</h1>
+    </div>
+    <div class="container-main">
+        <div class="container-fluid">
+            
+            <!-- Picture of me doing something I enjoy -->
+            <div class="position-relative">
+                <img src="img/Country dance background picture.jpg" />
+                <div class="overlay-container">
+                    <div class="overlay-content">
+                        <p>My Hobby: Country Swing Dancing</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 2 containers for hopes for IS413 and top 3 careers -->
+            <div class="container bg-custom">
+                <h2>My hopes for IS 413</h2>
+                <p>
+                    I'm excited for what the IS 413 class has to offer this semester.
+                    I was very intrigued to learn that we would be exploring more efficient
+                    and effective ways to create web pages, as that is my particular field of interest.<br />
+                </p>
+            </div>
+            <div class="container bg-custom">
+                <h2>My Top 3 Jobs For When I Graduate</h2>
+                <p>
+                    Software Developer<br />
+                    Data Analyst<br />
+                    Cyber Security Specialist<br />
+                </p>
+            </div>
+            
+            <!-- Grade Calculator Section -->
+            <div class="container bg-custom custom-padding">
+                <h2>Grade Calculator</h2>
+                
+                <!-- Get user input for each grade category: -->
+                <form>
+                    <label>Assignments: </label>
+                    <input id="percentAssignments" /><br />
+                    <label>Group Project: </label>
+                    <input id="percentProjects" /><br />
+                    <label>Quizzes: </label>
+                    <input id="percentQuizzes" /><br />
+                    <label>Midterm Exam: </label>
+                    <input id="percentMidterm" /><br />
+                    <label>Final Exam: </label>
+                    <input id="percentFinal" /><br />
+                    <label>INTEX: </label>
+                    <input id="percentIntex" /><br />
+                    <input id="calcGrade" type="button" value="Calculate Grade" /><br />
+                    
+                    <!-- Calculate final grade: -->
+                    <div class="container-small">
+                        <label>Final Grade: </label>
+                        <div id="letterGrade"></div>
+                    </div>
+                </form>
+            </div>
+                
+                <!-- Include JS files -->
+                <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+                <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+                <script src="js/gradeCalculator.js"></script>
+        </div>
+    </div>
+</body>
+</html>

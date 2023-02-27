@@ -9,6 +9,6 @@ Requirements includ implementing bootstrap and custom css styling in the website
 # Website Preview
 
 (1/2)
-
+![Screenshot 2023-02-27 143022](https://user-images.githubusercontent.com/103624496/221690934-d2ab5f63-b67a-4339-ac08-1e92a9c53767.png)
 
 (2/2)

@@ -1,4 +1,6 @@
 # Mission4_pthoma24
+BYU Winter 2023
+
 IS 413 Assignment - Create a static website to showcase a personal hobby as well as a grade calculator based off the course weights for each grade category.
 
 # Description
